@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project MultiMeli -->
+<!-- Saved: 2017-01-19, 14:43:10 -->
+<!-- Copyright (C) 2017 ,  -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>21d072f203a36f05703824c765785f1a04f73858</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>MainUI.py</Source>
+    <Source>Ui_MainUI.py</Source>
+    <Source>__init__.py</Source>
+    <Source>main.py</Source>
+    <Source>multiMeli/__init__.py</Source>
+    <Source>multiMeli/action.py</Source>
+    <Source>multiMeli/core.py</Source>
+    <Source>multiMeli/show.py</Source>
+  </Sources>
+  <Forms>
+    <Form>MainUI.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>
