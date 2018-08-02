@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project MultiMeli -->
-<!-- Saved: 2017-01-19, 14:43:10 -->
-<!-- Copyright (C) 2017 ,  -->
+<!-- Saved: 2018-07-25, 10:32:11 -->
+<!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language></Language>
   <Hash>21d072f203a36f05703824c765785f1a04f73858</Hash>
@@ -25,13 +25,114 @@
   <Forms>
     <Form>MainUI.ui</Form>
   </Forms>
-  <Translations/>
-  <Resources/>
-  <Interfaces/>
-  <Others/>
+  <Others>
+    <Other>.gitignore</Other>
+    <Other>Mult-iMeli.spec</Other>
+    <Other>main.spec</Other>
+  </Others>
   <MainScript>main.py</MainScript>
   <Vcs>
-    <VcsType>None</VcsType>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
@@ -44,4 +145,35 @@
     <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
     <FiletypeAssociation pattern="*.ui" type="FORMS"/>
   </FiletypeAssociations>
+  <Packagers>
+    <PackagersParams>
+      <dict>
+        <key>
+          <string>PYINSTALLER</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>inputFile</string>
+            </key>
+            <value>
+              <string>E:\Zone Documents\ToF\Documents\GitHub\multimeli\Mult-iMeli.spec</string>
+            </value>
+            <key>
+              <string>mainscript</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>pyinstaller</string>
+            </key>
+            <value>
+              <string>H:\Programmes_DEVELOPPEMENT\Python37\Scripts\pyinstaller.exe</string>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </PackagersParams>
+  </Packagers>
 </Project>

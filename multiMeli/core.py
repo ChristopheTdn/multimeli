@@ -78,14 +78,16 @@ def Answer(self, reponseJoueur):
 def listeQuestion():
     x=0    
     while (x==0):
-        xx = random.randrange(2, 11)
+        xx = random.randint(2, 10)
         if(optionTable[xx].isChecked()):
             x=xx        
-    y = random.randrange(2, 11)
-    listeReponse = [x*y,(x+1)*y, x*(y-1)]
+    y = random.randint(2, 10)
+    delta= [1,-1]
+    listeReponse = [x*y,abs(x*y+(random.randint(1, 10)*random.choice(delta))), abs(x*y+(random.randint(1, 10)*random.choice(delta)))]
     random.shuffle(listeReponse)
     return listeReponse+[x, y]
     
 def MajScore(self):
-    self.progressBar_Cool.setProperty("value", 100 - (nbrFaute * 100 / nbrTour))
-    
+    score =  (100 - (nbrFaute * 100 / nbrTour))
+    self.progressBar_Cool.setProperty("value", score)
+    self.label_progressbar.setText("%.1f" % score)

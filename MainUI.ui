@@ -12,7 +12,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string notr="true">Multi Meli ;-)</string>
+   <string notr="true">Multi Meli ;-) par Papa ToF</string>
   </property>
   <widget class="QPushButton" name="pushButton_ReponseA">
    <property name="geometry">
@@ -429,7 +429,7 @@
     <enum>QProgressBar::TopToBottom</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="label_progressbar">
    <property name="geometry">
     <rect>
      <x>360</x>

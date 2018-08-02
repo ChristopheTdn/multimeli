@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/mnt/DOCUMENTS/Zone Documents/ToF/Documents/GitHub/multimeli/MainUI.ui'
+# Form implementation generated from reading ui file 'E:\Zone Documents\ToF\Documents\GitHub\multimeli\MainUI.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.11.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,7 @@ class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(421, 342)
-        Form.setWindowTitle("Multi Meli ;-)")
+        Form.setWindowTitle("Multi Meli ;-) par Papa ToF")
         self.pushButton_ReponseA = QtWidgets.QPushButton(Form)
         self.pushButton_ReponseA.setGeometry(QtCore.QRect(46, 221, 79, 51))
         self.pushButton_ReponseA.setObjectName("pushButton_ReponseA")
@@ -142,10 +142,10 @@ class Ui_Form(object):
         self.progressBar_Cool.setOrientation(QtCore.Qt.Vertical)
         self.progressBar_Cool.setTextDirection(QtWidgets.QProgressBar.TopToBottom)
         self.progressBar_Cool.setObjectName("progressBar_Cool")
-        self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(360, 310, 51, 20))
-        self.label.setAlignment(QtCore.Qt.AlignCenter)
-        self.label.setObjectName("label")
+        self.label_progressbar = QtWidgets.QLabel(Form)
+        self.label_progressbar.setGeometry(QtCore.QRect(360, 310, 51, 20))
+        self.label_progressbar.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_progressbar.setObjectName("label_progressbar")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -165,7 +165,7 @@ class Ui_Form(object):
         self.checkBox_8.setText(_translate("Form", "8"))
         self.checkBox_9.setText(_translate("Form", "9"))
         self.checkBox_10.setText(_translate("Form", "10"))
-        self.label.setText(_translate("Form", "100 %"))
+        self.label_progressbar.setText(_translate("Form", "100 %"))
 
 
 if __name__ == "__main__":
