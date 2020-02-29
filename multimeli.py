@@ -1,5 +1,5 @@
-#! /usr/bin/python3
-#-*- coding: utf-8 -*-
+# ! /usr/bin/python3
+# -*- coding: utf-8 -*-
 from PyQt5 import QtWidgets
 from MainUI import Form
 import sys

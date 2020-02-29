@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project MultiMeli -->
-<!-- Saved: 2018-07-25, 10:32:11 -->
+<!-- Saved: 2018-08-20, 07:56:36 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language></Language>
@@ -16,11 +16,11 @@
     <Source>MainUI.py</Source>
     <Source>Ui_MainUI.py</Source>
     <Source>__init__.py</Source>
-    <Source>main.py</Source>
     <Source>multiMeli/__init__.py</Source>
     <Source>multiMeli/action.py</Source>
     <Source>multiMeli/core.py</Source>
     <Source>multiMeli/show.py</Source>
+    <Source>multimeli.py</Source>
   </Sources>
   <Forms>
     <Form>MainUI.ui</Form>
@@ -30,7 +30,7 @@
     <Other>Mult-iMeli.spec</Other>
     <Other>main.spec</Other>
   </Others>
-  <MainScript>main.py</MainScript>
+  <MainScript>multimeli.py</MainScript>
   <Vcs>
     <VcsType>Git</VcsType>
     <VcsOptions>
@@ -153,6 +153,12 @@
         </key>
         <value>
           <dict>
+            <key>
+              <string>cleanBeforeBuilding</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
             <key>
               <string>inputFile</string>
             </key>
